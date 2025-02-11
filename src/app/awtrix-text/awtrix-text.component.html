@@ -1,0 +1,8 @@
+<input
+	#textInput
+	type="text"
+	[(ngModel)]="awtrixText"
+	placeholder="Enter a short message"
+	(keydown)="onKeyDown($event)"
+/>
+<button (click)="sendText()">Show</button>
